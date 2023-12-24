@@ -10,6 +10,10 @@
 
 -   Qualquer serviço que rode HTML e CSS, ou seja qualquer navegador :)
 
+## Demonstração do projeto
+
+![Screenshot da página](screenshot.png)
+
 ## Infos
 
 **Tecnologias**: `HTML` e `CSS`
