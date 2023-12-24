@@ -16,8 +16,8 @@
 
 ## Infos
 
-**Tecnologias**: `HTML` e `CSS`
-**Data**: 22/08/2023
+* **Tecnologias**: `HTML` e `CSS`
+* **Data**: 22/08/2023
 
 ---
 
