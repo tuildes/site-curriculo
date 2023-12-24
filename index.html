@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--Define o uso do css como um arquivo separado-->
+		<link rel="stylesheet" href="style.css" />
+
+		<!--Colocar o icone da aba da pagina junto com o titulo-->
+		<link
+			rel="shortcut icon"
+			type="imagex/png"
+			href="./assets/bunny_icon.png"
+		/>
+
+		<!--Titulo da aba da pagina-->
+		<title>Pinguinando!</title>
+	</head>
+	<body>
+		<!--Header que eh aquela parte mais em cima com os links principais-->
+		<header class="header-wrapper">
+			<a href="#" class="header-links">Sobre mim</a>
+			<a href="supresa/parabens.html" class="header-links">Portfólio</a>
+			<a href="#" class="header-links">Trabalhos DINF</a>
+			<a href="#" class="header-links">Meu contato</a>
+		</header>
+		<!--Conteudo principal de toda a pagina-->
+		<main>
+			<section id="sobre-mim" class="container">
+				<div class="sobre-mim-wrapper">
+					<div class="sobre-mim-coluna-1">
+						<img
+							alt="Puffle Branco Antigo"
+							src="./assets/profile.jpeg"
+							class="sobre-mim-coluna-1-foto"
+						/>
+						<span class="sobre-mim-coluna-1-nome">Pinguin do Jornal</span>
+						<span class="sobre-mim-coluna-1-titulo">Mestre de Card Jitsu</span>
+					</div>
+					<div class="sobre-mim-coluna-2">
+						<span>
+							<hr class="sobre-mim-hr" />
+							<span class="sobre-mim-destaque">Breve Resumo:</span>
+							A Lenda do Bruxo (a) - Segundo essa lenda, se no dia do Halloween
+							você for no Iceberg e
+							<span class="sobre-mim-destaque">gritar 100 vezes</span>
+							seguidas a palavra "Bruxo" você vai virar um bruxo e irá ganhar
+							poderes mágicos.
+							<hr class="sobre-mim-hr" />
+							<span class="sobre-mim-destaque">Formado em:</span>
+							BCC na Universidade Federal do Paraná em 2008.
+							<br />
+							<span class="sobre-mim-destaque">Cursos:</span>
+							Certificado de Programação de Assembly pelo CP.
+							<br />
+							<span class="sobre-mim-destaque">Interesses:</span> Internet das
+							Coisas e Club Penguin.
+							<hr class="sobre-mim-hr" />
+
+							<div id="sobre-mim-icones">
+								<a href="#">
+									<img
+										alt="Logo do Github"
+										src="./assets/icones/github.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Linkedin"
+										src="./assets/icones/linkedin.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Instagram"
+										src="./assets/icones/instagram.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Spotify"
+										src="./assets/icones/spotify.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+								<a href="#">
+									<img
+										alt="Logo do Email"
+										style="width: 60px"
+										src="./assets/icones/email.png"
+										class="sobre-mim-icones-imagem"
+									/>
+								</a>
+							</div>
+
+							<hr class="sobre-mim-hr" />
+						</span>
+					</div>
+				</div>
+			</section>
+
+			<!--Resumo-->
+			<section id="resumo" class="container">
+				<div class="resumo-wrapper">
+					<div
+						style="
+							width: 400px;
+							display: flex;
+							align-items: center;
+							text-align: center;
+						"
+					>
+						<span
+							class="resumo-titulo"
+							style="
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+							"
+						>
+							&nbsp-
+							<span style="display: flex; color: #ffffff; align-items: center"
+								>R E S U M O</span
+							>
+							&nbsp-</span
+						>
+					</div>
+					<div>
+						<span class="resumo-texto"
+							>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Recusandae odit repellendus delectus voluptatem quisquam illo!
+							Accusantium quia repudiandae rerum exercitationem nam quasi
+							molestias, dignissimos fugiat repellat minus. Ad, eaque dicta.
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+							velit inventore quos atque. Excepturi iste ratione rerum
+							asperiores eaque ipsam aperiam odit culpa at debitis. Voluptate in
+							possimus quidem eos? Lorem, ipsum dolor sit amet consectetur
+							adipisicing elit. Accusantium eum eligendi odit ut quaerat aperiam
+							doloremque suscipit tempora. Eum sapiente sed natus et laudantium
+							beatae corrupti ducimus suscipit ratione. Exercitationem? Lorem
+							ipsum dolor, sit amet consectetur adipisicing elit. Eaque dolore
+							dicta natus doloremque nulla repellendus sed impedit. Natus, quod
+							recusandae in neque nostrum corporis, suscipit commodi, eum
+							explicabo hic ipsa.
+						</span>
+					</div>
+				</div>
+			</section>
+
+			<hr class="hr-divisao" />
+
+			<!--Portifolio-->
+			<section id="Portifolio" class="container">
+				<div class="portifolio-wrapper">
+					<span class="portifolio-titulo">Portfólios</span>
+
+					<card class="portifolio-card">
+						<img
+							alt="5 Aniversario CP"
+							src="./assets/portifolio.webp"
+							class="portifolio-image"
+						/>
+					</card>
+				</div>
+			</section>
+
+			<hr class="hr-divisao" />
+
+			<!--Experiencias-->
+
+			<section id="Experiencias" class="container">
+				<div class="experiencias-wrapper">
+					<span class="experiencias-titulo"
+						>~ &nbsp;<span style="color: #ffffff">Experiências</span
+						>&nbsp;&nbsp;~</span
+					>
+
+					<div class="experiencias-display-cards">
+
+						<!--Pode dar ctrl+c ctrl+v neles-->
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Operacao Apagao"
+								src="./assets/blackout.jpg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Operação Apagão </strong><br /><br />
+								Herbert diz: haha.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+						<card class="experiencias-cards">
+							<img
+								alt="Logo da Ecomp"
+								src="./assets/ecomp.jpeg"
+								class="experiencias-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Empresa Júnior Ecomp </strong><br /><br />
+								Desenvolvedor front-end da Ecomp desde 2023.
+						</card>
+
+					</div>
+				</div>
+			</section>
+
+			<!--Skills-->
+
+			<hr class="hr-divisao" />
+
+			<section id="Skills" class="container">
+				<div class="experiencias-wrapper">
+					<span class="experiencias-titulo"
+						>~ &nbsp;<span style="color: #ffffff">Skills</span
+						>&nbsp;&nbsp;~</span
+					>
+
+					<div class="experiencias-display-cards">
+
+						<card class="skills-cards">
+							<img
+								alt="Linguagem C"
+								src="./assets/c.png"
+								class="skills-cards-image"
+							/>
+							<span class="experiencias-cards-texto"
+								><strong>Programador AVANÇADO de C, C#</strong>
+						</card>
+
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--Rodape da pagina, a gente nao vai usar, mas em casos...-->
+		<footer class="footer-wrapper">
+			Feito por
+			<a href="https://github.com/tuildes" class="footer-link"
+				>Gustavo Frehse</a
+			>
+			para o Mini-Curso da
+			<a href="https://ecomp.co/" class="footer-link">Ecomp</a>.
+		</footer>
+	</body>
+</html>

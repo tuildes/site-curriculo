@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@300;800&display=swap");
+
+/*Reset geral de formatacao*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Define o tamanho e padroes*/
+body {
+	background-color: #0d1117;
+	font-family: sans-serif;
+	color: #ffffff;
+	height: 100vh;
+}
+
+.container {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+/*Header*/
+
+.header-wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #1a1e22;
+
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	padding: 20px 0;
+	margin-bottom: 50px;
+}
+
+.header-links {
+	text-decoration: none;
+
+	font-family: "Poppins";
+	font-size: 25px;
+	font-weight: 600;
+	color: #fcbf17;
+}
+
+.header-links:hover {
+	color: #ffda74;
+}
+
+/*Sobre mim*/
+
+.sobre-mim-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+}
+
+.sobre-mim-coluna-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.sobre-mim-coluna-1-foto {
+	width: 300px;
+	border-radius: 50%;
+}
+
+.sobre-mim-coluna-1-nome {
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 600;
+	color: #fcbf17;
+}
+
+.sobre-mim-coluna-1-titulo {
+	margin-top: -20px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 300;
+	color: #7e7e7e;
+}
+
+.sobre-mim-hr {
+	color: #1a1e22;
+	margin: 30px 0;
+}
+
+.sobre-mim-coluna-2 {
+	flex-wrap: wrap;
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	flex-direction: row;
+
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 300;
+	color: #ececec;
+}
+
+.sobre-mim-destaque {
+	font-weight: 800;
+	color: #fcbf17;
+}
+
+#sobre-mim-icones {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 15px;
+	gap: 100px;
+}
+
+.sobre-mim-icones-imagem {
+	width: 50px;
+	filter: contrast(0) brightness(2);
+}
+
+/*Classes do Resumo*/
+.resumo-wrapper {
+	display: flex;
+	align-items: center;
+	width: 60%;
+	margin-top: 50px;
+	height: 100%;
+	text-align: justify;
+}
+
+.resumo-titulo {
+	width: 1px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 800;
+	color: #fcbf17;
+}
+
+.resumo-texto {
+	font-family: "Poppins";
+	font-size: 15px;
+	font-weight: 400;
+
+	color: #ffffff;
+}
+
+.hr-divisao {
+	margin-top: 50px;
+	color: #1a1e22;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*Portifolio*/
+
+.portifolio-wrapper {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.portifolio-titulo {
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 800;
+	color: #ffffff;
+	text-align: center;
+}
+
+.portifolio-card {
+	width: 800px;
+	height: 500px;
+	background-color: #272727;
+	border-radius: 60px;
+	box-shadow: 0px 0px 15px black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portifolio-image {
+	width: 750px;
+	height: 450px;
+	border-radius: 50px;
+}
+
+/*Experiencias*/
+
+.experiencias-wrapper {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.experiencias-titulo {
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 800;
+	color: #fcbf17;
+	text-align: center;
+}
+
+.experiencias-display-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 60px;
+}
+
+.experiencias-cards {
+	width: 500px;
+	height: 200px;
+	border: solid 1px #ececec;
+	border-radius: 20px;
+
+	display: flex;
+	align-items: center;
+}
+
+.experiencias-cards-image {
+	width: 160px;
+	height: 160px;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+.experiencias-cards-texto {
+	margin-left: 30px;
+	margin-right: 30px;
+
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 400;
+	color: #cacaca;
+	text-align: start;
+}
+
+/*Skills*/
+
+.skills-cards {
+	width: 400px;
+	height: 120px;
+	border: solid 1px #ececec;
+	border-radius: 20px;
+
+	display: flex;
+	align-items: center;
+}
+
+.skills-cards-image {
+	width: 100px;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+/*Classes do Footer*/
+.footer-wrapper {
+	background-color: #fcbf17;
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 14px;
+	font-weight: 300;
+	color: #0d1117;
+	padding: 5px 0;
+	margin-top: 100px;
+	overflow-wrap: normal;
+	white-space: nowrap;
+
+	position: relative;
+	bottom: 0;
+	width: 100vw;
+}
+
+.footer-link {
+	text-decoration: none;
+	font-weight: 800;
+	color: #0d1117;
+}
