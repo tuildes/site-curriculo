@@ -18,7 +18,3 @@
 
 * **Tecnologias**: `HTML` e `CSS`
 * **Data**: 22/08/2023
-
----
-
-![Banner escrito TUILDES com a Mai Sakurajima em cada lado](banner.png)
